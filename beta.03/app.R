@@ -452,6 +452,7 @@ server <- function(input, output) {
           "Protective",
           "Destructive"
         ),
+        c("Protective"=#A5F00D ,"Destructive"=#0DF0BE )
         kendall_cor = abs(kendall_cor),
         chr_code = chr.namemap.2019[chr_code, 1]
       ) %>% na.omit() %>% 
